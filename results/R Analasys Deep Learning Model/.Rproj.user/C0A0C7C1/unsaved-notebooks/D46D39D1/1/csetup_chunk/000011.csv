@@ -1,0 +1,79 @@
+"0","import tensorflow as tf
+"
+"2","2"
+"2","024-11-04 02:57:25.708003: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 49;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\__init__.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\__init__.py]8;;[39m"", line 49, in <module>
+    from tensorflow._api.v2 import __internal__
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 8;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\_api\v2\__internal__\__init__.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py]8;;[39m"", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 8;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py]8;;[39m"", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 21;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\python\autograph\core\ag_ctx.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py]8;;[39m"", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 17;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\python\autograph\utils\__init__.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\autograph\utils\__init__.py]8;;[39m"", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 19;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\python\autograph\utils\context_managers.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py]8;;[39m"", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File ""[90m]8;line = 122;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+  File ""[90m]8;line = 96;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+  File ""[90m]8;line = 120;file://C:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.pyC:\Users\natha\AppData\Local\R\win-library\4.3\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+  File ""[90m]8;line = 5925;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\site-packages\tensorflow\python\framework\ops.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\framework\ops.py]8;;[39m"", line 5925, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File ""[90m]8;line = 243;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 243, in inner
+    return func(*args, **kwds)
+  File ""[90m]8;line = 316;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File ""[90m]8;line = 433;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 433, in Optional
+    return Union[arg, type(None)]
+  File ""[90m]8;line = 243;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 243, in inner
+    return func(*args, **kwds)
+  File ""[90m]8;line = 316;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File ""[90m]8;line = 421;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File ""[90m]8;line = 215;file://C:\Users\natha\AppData\Local\Programs\Python\Python39\Lib\typing.pyC:\Users\natha\AppData\Local\Programs\Python\Python39\lib\typing.py]8;;[39m"", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
+"

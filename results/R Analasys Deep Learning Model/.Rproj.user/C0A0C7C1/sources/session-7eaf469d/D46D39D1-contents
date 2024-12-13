@@ -1,0 +1,51 @@
+---
+title: "Deep Learning Model Analasys"
+output: html_document
+date: "2024-11-04"
+---
+
+```{python setup, include=FALSE}
+!pip install shap
+import shap
+!pip install tensorflow
+import tensorflow as tf
+import pandas as pd
+
+# Load the model
+model = tf.keras.models.load_model("C:/Users/natha/PersonalisedCancerTreatmentProject/models/final_model/saved_model.pb")
+
+# Load the clinical data
+data = pd.read_csv('C:/Users/natha/PersonalisedCancerTreatmentProject/data/Final_Combined_Clinical_and_Biospecimen_Data_for_Lung_Cancer.csv')
+
+# Convert categorical data to numeric if needed, as SHAP works on numerical input
+data_encoded = pd.get_dummies(data, drop_first=True)
+
+# Use a SHAP explainer (DeepExplainer for deep learning models)
+explainer = shap.DeepExplainer(model, data_encoded)
+shap_values = explainer.shap_values(data_encoded)
+
+# Convert SHAP values to DataFrame
+shap_df = pd.DataFrame(shap_values, columns=data_encoded.columns)
+shap_df.to_csv('/mnt/data/shap_values.csv', index=False)
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

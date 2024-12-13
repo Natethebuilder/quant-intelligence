@@ -1,0 +1,2 @@
+gender,age_at_index,race,cigarettes_per_day,pack_years_smoked,ajcc_pathologic_stage,primary_diagnosis,tissue_or_organ_of_origin,treatment_type,treatment_therapy,sample_type,specimen_type,tissue_type,preservation_method,portion_weight,is_ffpe,analyte_type,concentration,spectrophotometer_method,aliquot_volume,aliquot_quantity
+male,80,white,25,60,Stage IV,"Adenocarcinoma, NOS","Upper lobe, lung","Pharmaceutical Therapy, NOS",no,Blood Derived Normal,Solid Tissue,Tumor,Unknown,30,FALSE,DNA,0.15,UV Spec,50,1.86
